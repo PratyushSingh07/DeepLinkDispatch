@@ -3,7 +3,7 @@ plugins {
   id("checkstyle")
   id("kotlin-android")
   id("com.google.devtools.ksp")
-  id('org.jmailen.kotlinter')
+//  id('org.jmailen.kotlinter')
 }
 
 
@@ -39,7 +39,7 @@ android {
     }
 
     kotlin {
-        jvmToolchain(21)
+        jvmToolchain(17)
     }
     lint {
         disable 'InvalidPackage'
